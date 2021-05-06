@@ -10,6 +10,9 @@ This new assignment consists of one technical analysis deliverable and a written
 
 Deliverable 1: Filter UFO sightings on multiple criteria
 Deliverable 2: A written report on the UFO analysis (README.md)
+! https://github.com/Dybondzy/UFOs/blob/main/index.html
+
+
 Files
 Use the following links to download the Challenge starter code.
 
@@ -93,7 +96,13 @@ Upload the following to your UFOs GitHub repository:
 
 The updated app.js file with the code for the challenge.
 The updated index.html file.
+! 
+
 The data.js file.
+!
+
 An updated README.md that has your written analysis
+! https://github.com/Dybondzy/UFOs/blob/main/index.html
+
 To submit your challenge assignment in Canvas, click Submit, then provide the URL of your UFOs GitHub repository for grading.
 
