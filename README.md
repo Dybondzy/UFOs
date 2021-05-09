@@ -2,6 +2,9 @@
 
 Module 11
 
+
+## Project Overview
+
 Background
 Dana’s webpage and dynamic table are working as intended, but she’d like to provide a more in-depth analysis of UFO sightings by allowing users to filter for multiple criteria at the same time. In addition to the date, you’ll add table filters for the city, state, country, and shape.
 
@@ -16,7 +19,8 @@ Deliverable 2: A written report on the UFO analysis (README.md)
 Files
 Use the following links to download the Challenge starter code.
 
-Download the starter code. (Links to an external site.)
+Download the starter code.
+! 
 
 Deliverable 1: Filter UFO sightings on multiple criteria (80 points)
 Deliverable 1 Instructions
@@ -27,8 +31,9 @@ Using JavaScript, you’ll replace the handleClick() function in your app.js fil
 Follow the instructions below and the numbered comments in the starter code to complete Deliverable 1.
 
 Download the ufo_starterCode.js, rename it app.js, and place it in the js folder of your UFOs GitHub repository. The starter code includes the code used to populate the table from this module.
+! https://github.com/Dybondzy/UFOs/blob/main/app.js
 
-In the index.html file, remove the list (<li></li>) element that creates the button.
+In the index.html file, remove the list '(<li></li>)' element that creates the button.
 Create four more list elements: city, state, country, and shape. These will be similar to the "Enter Date" list element. Each element should have the same "id" as the object properties in the data.js file.
 In Step 1 of the app.js file, create an empty filters variable to keep track of all the elements that change when a search is entered. This variable will be used in Step 5 to store the property “id” and the value that was entered from user input.
 Next, you will need to write code for two functions whose names we’ve provided in the starter code, updateFilters() and filterTable().
@@ -46,7 +51,8 @@ In the filterTable() function in Step 7, write code to filter the table based on
 In Step 8, create a variable for the filtered data that is equal to the data that builds the table. This variable will hold the updated table data based on the user input.
 In Step 9, loop through the filters object and store the data that matches the filter values in the variable created in Step 8.
 In Step 10, rebuild the table with the filtered data by passing the variable created in Step 8.
-Deploy the web app on your GitHub pages.
+
+
 Deliverable 1 Requirements
 You will earn a perfect score for Deliverable 1 by completing all requirements below:
 
@@ -64,6 +70,7 @@ For your written analysis, be sure to use complete and coherent sentences. Your 
 Overview of Project: Explain the purpose of this analysis.
 Results: Describe to Dana how someone might use the new webpage by walking her through the process of using the search criteria. Use images of your webpage during the filtering process to support your explanation.
 Summary: In a summary statement, describe one drawback of this new design and two recommendations for further development.
+
 Deliverable 2 Requirements
 Structure, Organization, and Formatting (8 points)
 The written analysis has the following structure, organization, and formatting:
@@ -78,15 +85,24 @@ The written analysis has the following:
 Overview of the analysis:
 
 The purpose is well defined (2 pt)
-Results:
+
+
+## Results:
 
 There is a description of how to perform a search, with images. (4 pt)
-Summary:
+
+
+## Summary:
 
 The summary addresses one drawback of this webpage (2 pt)
+The header of the webpage is not clear
+
 The summary addresses two additional recommendations for further development (4 pt)
+The search fields don't reset after a search.  If there was more time, the reset could be added.
+The header links to a picture that could be changed and the font color could be changed, with more time.
+
+
 Submission
-Once you’re ready to submit, make sure to check your work against the rubric to ensure you are meeting the requirements for this Challenge one final time. It’s easy to overlook items when you’re in the zone!
 
 As a reminder, the deliverables for this Challenge are as follows:
 
@@ -104,5 +120,7 @@ The data.js file.
 An updated README.md that has your written analysis
 ! https://github.com/Dybondzy/UFOs/edit/main/README.md
 
-To submit your challenge assignment in Canvas, click Submit, then provide the URL of your UFOs GitHub repository for grading.
+
+
+
 
